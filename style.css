@@ -1,0 +1,143 @@
+/* All setting */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* font */
+
+@font-face {
+    font-family: 'Quint Uppercase';
+    src: url("font/Quint\ Uppercase\ Font.otf");
+}
+
+* {
+    font-family: 'Quint Uppercase';
+}
+
+
+/* header */
+
+header {
+    height: 700px;
+}
+
+.nav-txt {
+    font-size: 45px;
+    color: #9C9C9C;
+    letter-spacing: 0.44em;
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.title-box {
+    margin-top: 200px;
+    margin-left: 130px;
+    color: #414141;
+}
+
+.title-box h1 {
+    font-size: 100px;
+    letter-spacing: 0.1em;
+}
+
+.title-box p {
+    margin-top: 20px;
+    font-size: 40px;
+    letter-spacing: 0.2em;
+}
+
+/* main */
+
+main {
+    padding: 40px 0;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper p {
+    font-size: 40px;
+    letter-spacing: 0.2em;
+    color: #414141;
+}
+
+.design-box {
+    margin: 150px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.design-box p {
+    font-size: 70px;
+    color: #B4B4B4;
+}
+
+.design-box img {
+    width: 70%;
+}
+
+/* footer */
+footer {
+    background-color: #717171;
+    height: 170px;
+    text-align: center;
+}
+
+footer p {
+    line-height: 170px;
+    font-size: 25px;
+    color: rgb(235, 235, 235);
+    letter-spacing: 0.2em;
+}
+
+/* sp */
+@media screen and (max-width: 600px) {
+
+    .nav-txt {
+        font-size: 30px;
+    }
+
+    .title-box {
+        margin-left: 60px;
+    }
+
+    .title-box h1 {
+        font-size: 50px;
+    }
+
+    .title-box p {
+        font-size: 18px;
+        letter-spacing: 0.2em;
+    }
+
+    /* main */
+
+    main {
+        padding: 40px 0;
+    }
+
+    .wrapper p {
+        font-size: 25px;
+    }
+
+    .design-box {
+        margin: 150px 0;
+        display: block;
+    }
+
+    .design-box p {
+        font-size: 50px;
+        color: #B4B4B4;
+    }
+
+    .design-box img {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
