@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 
@@ -32,7 +33,7 @@
 .spinner {
   width: 100px;
   height: 100px;
-  margin: 200px auto;
+  margin: 50% auto;
   background-color: #444;
   border-radius: 100%;
   animation: sk-scaleout 1.0s infinite ease-in-out;
@@ -54,7 +55,7 @@
 
 .p5-canvas {
     width: 100vw;
-    height: 10000px;
+    height: 650px;
     z-index: -9999;
     position: fixed;
     top: 0;
@@ -64,16 +65,21 @@
 /* header */
 
 header {
-    height: 700px;
+    height: 650px;
+}
+
+.navi {
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 40px;
 }
 
 .nav-txt {
-    font-size: 35px;
+    font-size: 30px;
     color: #9C9C9C;
-    letter-spacing: 0.44em;
+    letter-spacing: 0.3em;
     text-align: right;
-    margin-top: 20px;
-    margin-right: 40px;
+    margin: 0 20px;
 }
 
 .title-box {
@@ -96,7 +102,7 @@ header {
 /* main */
 
 main {
-    padding: 40px 0;
+    padding: 80px 0;
 }
 
 .wrapper {
@@ -104,11 +110,32 @@ main {
     margin: 0 auto;
 }
 
-.wrapper p {
-    font-size: 40px;
+.section-title {
+    font-size: 70px;
+    letter-spacing: 0.2em;
+    color: #494949;
+    padding: 30px 0;
+}
+
+.design-type h3 {
+    font-size: 50px;
+    letter-spacing: 0.2em;
+    color: #454545;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.design-type p {
+    font-size: 25px;
     letter-spacing: 0.2em;
     color: #414141;
+    padding-left: 100px;
+    padding-top: 30px;
 }
+
+ .design-garally {
+    margin-left: 50px;
+ }
 
 .design-box {
     margin: 150px 0;
@@ -122,7 +149,7 @@ main {
 }
 
 .design-box img {
-    width: 70%;
+    width: 55%;
 }
 
 /* footer */
@@ -176,7 +203,6 @@ footer p {
 
     .design-box p {
         font-size: 50px;
-        color: #B4B4B4;
     }
 
     .design-box img {
